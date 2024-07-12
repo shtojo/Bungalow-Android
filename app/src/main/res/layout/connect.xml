@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <LinearLayout
+        style="@style/CustomLayoutStyle"
+        android:paddingBottom="10dp"
+        android:paddingTop="10sp">
+        <TextView
+            android:id="@+id/connect_passwordText"
+            android:text="Password:"
+            style="@style/CustomTextViewStyle"
+            android:visibility="visible"/>
+        <EditText
+            android:id="@+id/connect_password"
+            android:inputType="textPassword"
+            style="@style/CustomEditTextStyle"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/connect_savePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Save Password?" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <Switch
+        android:id="@+id/connect_switch"
+        android:text="Show Connection Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#40E040"/>
+
+    <LinearLayout
+        style="@style/CustomLayoutStyle">
+        <TextView
+            android:id="@+id/connect_localText"
+            android:text="Local Ip:"
+            style="@style/CustomTextViewStyle"/>
+        <EditText
+            android:id="@+id/connect_local"
+            style="@style/CustomEditTextStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLayoutStyle">
+        <TextView
+            android:id="@+id/connect_remoteText"
+            android:text="Remote Ip:"
+            style="@style/CustomTextViewStyle"/>
+        <EditText
+            android:id="@+id/connect_remote"
+            style="@style/CustomEditTextStyle"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/CustomLayoutStyle">
+        <TextView
+            android:id="@+id/connect_portText"
+            android:text="Server Port:"
+            style="@style/CustomTextViewStyle"/>
+        <EditText
+            android:id="@+id/connect_port"
+            style="@style/CustomEditTextStyle"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/connect_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:text="Available Connection:"
+        android:paddingEnd="20dp"/>
+
+    <CheckBox
+        android:id="@+id/connect_onHomeWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Set this as my home wifi" />
+
+    <TextView
+        android:id="@+id/connect_currentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:paddingStart="40dp"
+        android:paddingEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/connect_currentMac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="8pt"
+        android:paddingStart="40dp"
+        android:paddingEnd="20dp"/>
+
+</LinearLayout>

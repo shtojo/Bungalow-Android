@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Bungalow</string>
+    <string name="rule_when_prompt">Select trigger</string>
+    <string name="tab_security">Security</string>
+    <string name="tab_zones">Zones</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_rules">Rules</string>
+    <string name="disarm">Disarm</string>
+    <string name="arm_away">Arm Away</string>
+    <string name="arm_stay">Arm Stay</string>
+    <string name="additional_info">Additional Info</string>
+    <string name="status">Status</string>
+    <string name="secimg">secimg</string>
+    <string name="armed">armed</string>
+    <string name="time">Time</string>
+    <string name="description">Description</string>
+    <string name="local_server_address">Local Server Address</string>
+    <string name="when_on_home_network">When on home network</string>
+    <string name="remote_server_address">Remote Server Address</string>
+    <string name="when_away_from_home">When away from home</string>
+    <string name="server_port">Server Port</string>
+    <string name="home_network_name_ssid">Home Network Name (SSID)</string>
+    <string name="when_trigger">When (Trigger)</string>
+    <string name="rule_when_zone_prompt">Select zone</string>
+    <string name="rule_when_dayofweek_prompt">Select zone</string>
+    <string name="rule_when_date_prompt">Select zone</string>
+    <string name="rule_if_prompt1">Select condition</string>
+    <string name="rule_setup_hour_name">Hour</string>
+    <string name="rule_setup_minute_name">Minute</string>
+    <string name="rule_do_prompt">Select task</string>
+    <string name="rule_setup_ampm_name">AM/PM</string>
+    <string name="volume">Volume %d</string>
+    <string name="secArmStay">Arm Stay</string>
+    <string name="secNotConnected">Not Connected</string>
+    <string name="secArmedStay">Armed-Stay</string>
+    <string name="secInstantModeOn">Instant Mode On</string>
+    <string name="secArmedStayInstant">Armed-Stay-Instant</string>
+    <string name="secInstantModeOff">Instant Mode Off</string>
+    <string name="secArmedAway">Armed-Away</string>
+    <string name="secNotReadytoArm">Not Ready to Arm</string>
+    <string name="secReadytoArm">Ready to Arm</string>
+    <string name="secReadytoForceArm">Ready to Force Arm</string>
+    <string name="secBurglary">BURGLARY!</string>
+    <string name="secFire">FIRE!</string>
+    <string name="secPowerOffAndSystemError">Power is off! System error!</string>
+    <string name="secPowerOff">Power is Off!</string>
+    <string name="secSystemError">System Error!</string>
+    <string name="if_condition">If (Condition)</string>
+    <string name="do_action">Do (Action)</string>
+    <string name="to_address">to address</string>
+    <string name="email_subject">email subject</string>
+    <string name="email_body">email body</string>
+    <string name="alarm_event_contacts">Alarm Event Contacts</string>
+    <string name="contacts_to_notify">Contacts to notify</string>
+    <string name="email_server_settings">Email Server Settings</string>
+    <string name="server">server</string>
+    <string name="password">password</string>
+    <string name="volume_00">Volume 00</string>
+    <string name="xxxxxxxxxxxxxxxx">XXXXXXXXXXXXXXXX</string>
+    <string name="icon1">icon1</string>
+    <string name="icon2">icon2</string>
+    <string name="icon3">icon3</string>
+    <string name="icon4">icon4</string>
+    <string name="touch_and_hold_a_zone_to_change_zone_type">Touch and hold a zone to change zone type</string>
+    <string name="ready">ready</string>
+    <string name="not_ready">not ready</string>
+    <string name="alarm">alarm</string>
+    <string name="last_alarm">Last Alarm</string>
+    <string name="bypassed">bypassed</string>
+    <string name="error">Error</string>
+    <string name="refresh">Refresh</string>
+    <string name="speak">Speak</string>
+    <string name="mail_settings">Mail settings</string>
+    <string name="network_settings">Network settings</string>
+    <string name="activate_alarm">Activate alarm</string>
+    <string name="reboot_server">Reboot server</string>
+    <string name="quit">Quit</string>
+    <string name="about">About</string>
+
+    <string-array name="rule_when_list">
+        <item>Zone Faulted</item>
+        <item>Zone Ready</item>
+        <item>Burglary Alarm</item>
+        <item>Fire Alarm</item>
+        <item>Armed</item>
+        <item>Armed Away</item>
+        <item>Armed Stay</item>
+        <item>Disarmed</item>
+        <item>Daily</item> <!-- i.e. every day -->
+        <item>Weekly</item> <!-- i.e. every Sunday -->
+        <item>Monthly</item> <!-- i.e. every 19th -->
+    </string-array>
+
+    <string-array name="rule_when_dayofweek_list">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="rule_when_date_list">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11th</item>
+        <item>12th</item>
+        <item>13th</item>
+        <item>14th</item>
+        <item>15th</item>
+        <item>16th</item>
+        <item>17th</item>
+        <item>18th</item>
+        <item>19th</item>
+        <item>20th</item>
+        <item>21st</item>
+        <item>22nd</item>
+        <item>23rd</item>
+        <item>24th</item>
+        <item>25th</item>
+        <item>26th</item>
+        <item>27th</item>
+        <item>28th</item>
+        <item>29th</item>
+        <item>30th</item>
+        <item>31st</item>
+    </string-array>
+
+    <string-array name="rule_if_list">
+        <item>Always</item>
+        <item>Zone Faulted</item>
+        <item>Zone Ready</item>
+        <item>Armed</item>
+        <item>Armed Away</item>
+        <item>Armed Stay</item>
+        <item>Disarmed</item>
+    </string-array>
+
+    <string-array name="email_modes">
+        <item>SMTP:25</item>
+        <item>SSL:465</item>
+        <item>TLS:587</item>
+    </string-array>
+
+    <string-array name="rule_setup_hour_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="rule_setup_minute_list">
+        <item>00</item>
+        <item>05</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+    <!-- Note: if text is changed, must also change the text in the comparison in the java file -->
+    <string-array name="rule_do_list">
+        <item>Speak</item>
+        <item>Send email</item>
+        <item>Activate device</item>
+    </string-array>
+
+    <string-array name="rule_setup_ampm_list">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+    <string-array name="rule_device_list">
+        <item>Device 1</item>
+        <item>Device 2</item>
+        <item>Device 3</item>
+        <item>Device 4</item>
+        <item>Device 5</item>
+        <item>Device 6</item>
+        <item>Device 7</item>
+        <item>Device 8</item>
+        <item>Device 9</item>
+        <item>Device 10</item>
+        <item>Device 11</item>
+        <item>Device 12</item>
+        <item>Device 13</item>
+        <item>Device 14</item>
+        <item>Device 15</item>
+        <item>Device 16</item>
+    </string-array>
+
+    <string-array name="rule_duration_list">
+        <item>Forever</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+    <string-array name="rule_duration_units">
+        <item>Seconds</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+    </string-array>
+
+    <string-array name="speak_id_list">
+        <item>say1.wav</item>
+        <item>say2.wav</item>
+        <item>say3.wav</item>
+        <item>say4.wav</item>
+        <item>say5.wav</item>
+        <item>say6.wav</item>
+        <item>say7.wav</item>
+        <item>say8.wav</item>
+        <item>say9.wav</item>
+    </string-array>
+
+</resources>

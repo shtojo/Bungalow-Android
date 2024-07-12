@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/eventIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="6dp"
+        android:contentDescription="@string/armed"
+        android:src="@drawable/armed"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/eventTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/eventIcon"
+        android:text="@string/time"
+        android:textColor="#E0E0FF"
+        android:textSize="14sp"
+        tools:ignore="RtlHardcoded" />
+    
+    <TextView
+        android:id="@+id/eventDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/eventIcon"
+        android:layout_below="@+id/eventTime"
+        android:text="@string/description"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout> 

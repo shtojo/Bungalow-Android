@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:gravity="left"
+    android:orientation="horizontal"
+    tools:ignore="RtlHardcoded">
+
+    <TextView
+        android:id="@+id/zoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/zoneIcon1"
+        android:text="@string/xxxxxxxxxxxxxxxx"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="8pt"
+        tools:ignore="RelativeOverlap,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/zoneIcon1"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/icon1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ready"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/zoneIcon2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="@string/icon2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/alarm"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/zoneIcon3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/zoneIcon2"
+        android:contentDescription="@string/icon3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/error"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/zoneIcon4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_toLeftOf="@+id/zoneIcon3"
+        android:contentDescription="@string/icon4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bypassed"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>

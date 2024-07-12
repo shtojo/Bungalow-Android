@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_speak"
+        android:orderInCategory="2"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_volume_on"
+        android:title="@string/speak"/>
+        
+    <item
+        android:id="@+id/action_mail"
+        android:orderInCategory="3"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/mail_settings"/>
+        
+    <item
+        android:id="@+id/action_alarm"
+        android:orderInCategory="5"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_alarms"
+        android:title="@string/activate_alarm"/>
+        
+    <item
+        android:id="@+id/action_reboot"
+        android:orderInCategory="6"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_repeat"
+        android:title="@string/reboot_server"/>
+    
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="7"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_action_remove"
+        android:title="@string/quit"/>
+    
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="8"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/about"/>
+
+</menu>

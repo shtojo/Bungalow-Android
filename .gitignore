@@ -13,6 +13,9 @@ captures/
 .externalNativeBuild/
 .cxx/
 *.apk
+*.aar
+*.ap_
+*.aab
 output.json
 
 # IntelliJ
@@ -21,6 +24,17 @@ output.json
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
+
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/gradle.xml
+# .idea/assetWizardSettings.xml
+# .idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
+.idea/navEditor.xml
 
 # Keystore files
 *.jks
@@ -31,3 +45,36 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+.DS_Store
+
+# Misc
+*.dex
+*.class
+
+# App Specific cases 
+app/release/output.json
+.idea/codeStyles/
+bin/
+gen/
+out/
+proguard/
+freeline.py
+freeline/
+freeline_project_description.json
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+vcs.xml
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
+
+logs/
+

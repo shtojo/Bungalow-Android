@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider" />
+
+        <!-- When (Trigger) -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/when_trigger"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/ruleWhenSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/rule_when_list"
+            android:prompt="@string/rule_when_prompt" />
+
+        <Spinner
+            android:id="@+id/ruleWhenZoneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/rule_when_zone_prompt" />
+
+        <Spinner
+            android:id="@+id/ruleWhenDayofweekSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/rule_when_dayofweek_list"
+            android:prompt="@string/rule_when_dayofweek_prompt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/ruleWhenDateSpinner"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/rule_when_date_list"
+                android:prompt="@string/rule_when_date_prompt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/ruleWhenHourSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/rule_setup_hour_list"
+                android:prompt="@string/rule_setup_hour_name" />
+
+            <Spinner
+                android:id="@+id/ruleWhenMinuteSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/rule_setup_minute_list"
+                android:prompt="@string/rule_setup_minute_name" />
+
+            <Spinner
+                android:id="@+id/ruleWhenAmpmSspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/rule_setup_ampm_list"
+                android:prompt="@string/rule_setup_ampm_name" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider" />
+
+        <!-- If (Condition) -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/if_condition"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/ruleIfSpinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/rule_if_list"
+            android:prompt="@string/rule_if_prompt1" />
+
+        <Spinner
+            android:id="@+id/ruleIfSpinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/do_action"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/ruleDoSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/rule_do_list"
+            android:prompt="@string/rule_do_prompt" />
+
+        <Spinner
+            android:id="@+id/ruleDoSpeakSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/speak_id_list" />
+
+        <Spinner
+            android:id="@+id/ruleDoDeviceSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/rule_device_list" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Spinner
+                android:id="@+id/ruleDoDurationSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/rule_duration_list" />
+
+            <Spinner
+                android:id="@+id/ruleDoDurationUnitsSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/rule_duration_units" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ruleDoEmlAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/to_address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/ruleDoEmlSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_subject" />
+
+        <EditText
+            android:id="@+id/ruleDoEmlbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_body"
+            android:inputType="textMultiLine" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider" />
+    </LinearLayout>
+
+</ScrollView>

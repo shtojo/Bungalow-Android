@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/touch_and_hold_a_zone_to_change_zone_type"
+        android:textColor="#C0E0E0"
+        android:textSize="12sp" />
+    
+    <ImageView
+        android:id="@+id/iReady"
+        android:layout_marginLeft="8dp"
+        android:layout_above="@+id/tMessage"
+        android:contentDescription="@string/ready"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ready"
+        tools:ignore="RtlHardcoded" />
+                
+    <TextView
+        android:id="@+id/tReady"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tMessage"
+        android:layout_toRightOf="@+id/iReady"
+        android:paddingTop="2dp"
+        android:text="@string/ready"
+        android:textColor="#A0FF60"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="RtlHardcoded" />
+            
+    <ImageView
+        android:id="@+id/iFaulted"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/tReady"
+        android:layout_above="@+id/tMessage"
+        android:contentDescription="@string/not_ready"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fault"
+        tools:ignore="RtlHardcoded" />
+        
+    <TextView
+        android:id="@+id/tFaulted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iFaulted"
+        android:layout_above="@+id/tMessage"
+        android:paddingTop="2dp"
+        android:text="@string/not_ready"
+        android:textColor="#F0D000"
+        android:textSize="12sp"   
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="RtlHardcoded" />
+           
+    <ImageView
+        android:id="@+id/iAlarm"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/tFaulted"
+        android:layout_above="@+id/tMessage"
+        android:contentDescription="@string/alarm"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/alarm"
+        tools:ignore="RtlHardcoded" />
+    
+    <TextView
+        android:id="@+id/tAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iAlarm"
+        android:layout_above="@+id/tMessage"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="2dp"
+        android:text="@string/last_alarm"
+        android:textColor="#F0D000"
+        android:textSize="12sp"   
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="RtlHardcoded" />
+    
+    <ImageView
+        android:id="@+id/iBypassed"
+        android:layout_marginLeft="8dp"
+        android:layout_above="@+id/tMessage"
+        android:layout_toRightOf="@+id/tAlarm"
+        android:contentDescription="@string/bypassed"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bypassed"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tbypassed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tMessage"
+        android:layout_toRightOf="@+id/iBypassed"
+        android:paddingTop="2dp"
+        android:text="@string/bypassed"
+        android:textColor="#F0D000"
+        android:textSize="12sp"        
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="RtlHardcoded" />
+    
+    <ImageView
+        android:id="@+id/iError"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/tbypassed"
+        android:layout_above="@+id/tMessage"
+        android:contentDescription="@string/error"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/error"
+        tools:ignore="RtlHardcoded" />
+    
+    <TextView
+        android:id="@+id/tError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iError"
+        android:layout_above="@+id/tMessage"
+        android:paddingTop="2dp"
+        android:text="@string/error"
+        android:textColor="#F03030"
+        android:textSize="12sp"   
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:ignore="RtlHardcoded" />
+
+    <!-- divider bar and list view -->  
+    
+    <View
+        android:id="@+id/vDivider"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:layout_above="@+id/iReady"
+        android:background="?android:attr/listDivider" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_above="@id/vDivider" />    
+
+</RelativeLayout>
+
+
