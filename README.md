@@ -26,3 +26,10 @@ After many years of using this software in my own home, I am now open-sourcing i
 Until I am able to document further, please review the source code for more details and capabilities.
 
 I hope you find it useful. Thank you.
+
+![Model](Paste_link_here)
+![Alt text](Screenshots.png)
+
+
+
+
