@@ -1,5 +1,5 @@
 # Bungalow-Android
-A home security application for GE/Networx/Caddx and similar systems - Android phone application
+A home security application for GE/Networx/Caddx and similar systems - Android phone application. See description and screenshots below.
 
 Bungalow home security application
 Author: Shawn Johnston
