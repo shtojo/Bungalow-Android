@@ -27,7 +27,10 @@ Until I am able to document further, please review the source code for more deta
 
 I hope you find it useful. Thank you.
 
-![Model](Paste_link_here)
+![Model]([Paste_link_here](https://github.com/shtojo/Bungalow-Android/blob/e02c4c7dea90d6fd6a15e0fc0885812e8e35688d/Screenshots.png))
+
+asdlfj
+
 ![Alt text](Screenshots.png)
 
 
