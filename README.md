@@ -36,7 +36,3 @@ RULES TAB: Allows you to set up rules to peform actions based on events, time, e
 
 ![Alt text](Screenshots.png)
 
-
-
-
->>>>>>> 1913319f8f5b1f0aec268e8ba6e5e3255c2242bb
