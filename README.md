@@ -27,9 +27,13 @@ Until I am able to document further, please review the source code for more deta
 
 I hope you find it useful. Thank you.
 
-![Model]([Paste_link_here](https://github.com/shtojo/Bungalow-Android/blob/e02c4c7dea90d6fd6a15e0fc0885812e8e35688d/Screenshots.png))
 
-asdlfj
+Screenshots of the Android application are below:
+SECURITY TAB: Allows arming/disarming the system and shows current state
+ZONES TAB: Shows all zones, their current state and the last alarm and any error conditions, etc.
+EVENTS TAB: Shows a history of all events (doors open/close, etc)
+MENU: Shows miscellaneous options.
+RULES TAB: Allows you to set up rules to peform actions based on events, time, etc.
 
 ![Alt text](Screenshots.png)
 
