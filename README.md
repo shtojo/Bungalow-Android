@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 home security application for GE/Networx/Caddx and similar systems - Android phone application. See description and screenshots below.
+=======
+# Bungalow-Android
+A home security application for GE/Networx/Caddx and similar systems - Android phone application. See description and screenshots below.
+>>>>>>> 1913319f8f5b1f0aec268e8ba6e5e3255c2242bb
 
 Bungalow home security application
 Author: Shawn Johnston
@@ -34,4 +39,12 @@ EVENTS TAB: Shows a history of all events (doors open/close, etc)
 MENU: Shows miscellaneous options.
 RULES TAB: Allows you to set up rules to peform actions based on events, time, etc.
 
+<<<<<<< HEAD
 ![Alt text](Screenshots.png)
+=======
+![Alt text](Screenshots.png)
+
+
+
+
+>>>>>>> 1913319f8f5b1f0aec268e8ba6e5e3255c2242bb
